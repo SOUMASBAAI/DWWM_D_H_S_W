@@ -3,7 +3,7 @@ import * as tf from "@tensorflow/tfjs";
 import * as cocossd from "@tensorflow-models/coco-ssd";
 import Webcam from "react-webcam";
 import { drawRect } from "../assets/js/utilities.js";
-import Sound from "../assets/sound_capture.mp3";
+import Sound from "../assets/SFB-appphoto.mp3";
 
 function Detection() {
   const webcamRef = useRef(null);
